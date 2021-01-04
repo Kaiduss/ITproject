@@ -1,0 +1,296 @@
+# Translation of Themes - SemPress in Polish
+# This file is distributed under the same license as the Themes - SemPress package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-12-14 08:58:39+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: pl\n"
+"Project-Id-Version: Themes - SemPress\n"
+
+#. Description of the theme
+msgid "SemPress is an extremely lightweight, responsive theme designed to show off your posts, quotes, and images. SemPress supports multiple post formats, widgets, and the option to upload a custom header or background image. The theme is based on HTML5 mixed with microformats, microformats v2 and microdata (Schema.org)."
+msgstr "SemPress jest niezwykle lekkim, responsywnym motywem zaprojektowanym do prezentowania wpisów, cytatów i obrazków. SemPress obsługuje wiele formatów wpisów, widżetów oraz opcję przesyłania nietypowego nagłówka lub obrazka tła. Motyw jest oparty na HTML5 zmieszanym z mikroformatami, mikroformatami v2 i mikrodanymi (Schema.org)."
+
+#. Theme Name of the theme
+msgid "SemPress"
+msgstr "SemPress"
+
+#: int/syndication-links.php:35
+msgid "Syndication Links"
+msgstr "Linki dystrybucyjne"
+
+#: functions.php:148
+msgid "Change the look and feel of SemPress."
+msgstr "Zmień wygląd i sposób działania SemPress."
+
+#. Template Name of the theme
+msgid "Full-width, no sidebar"
+msgstr "Pełna szerokość, bez panelu bocznego"
+
+#: sidebar.php:26
+msgid "Meta"
+msgstr "Meta"
+
+#: search.php:39
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Brak wyników wyszukiwania. Proszę spróbować ponownie z innymi słowami."
+
+#: search.php:17
+msgid "Search Results for: %s"
+msgstr "Wyniki wyszukiwania dla zapytania &#8222;%s&#8221;"
+
+#: image.php:99
+msgid "Both comments and trackbacks are currently closed."
+msgstr "Komentarze i trackbacki są obecnie wyłączone."
+
+#: image.php:97
+msgid "Trackbacks are closed, but you can <a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">post a comment</a>."
+msgstr "Trackbacki są wyłączone, ale możesz <a class=\"comment-link\" href=\"#respond\" title=\"Zostaw komentarz>zostawić komentarz/a>."
+
+#: image.php:95
+msgid "Comments are closed, but you can leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr "Komentarze są wyłączone, ale możesz zostawić <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">adres trackbacku</a>."
+
+#: image.php:93
+msgid "<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Post a comment</a> or leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr "<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Zostaw komentarz</a> lub <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">adres trackbacku</a>."
+
+#: image.php:38
+msgid "Next &rarr;"
+msgstr "Następne &rarr;"
+
+#: image.php:37
+msgid "&larr; Previous"
+msgstr "&larr; Poprzednie"
+
+#: image.php:23
+msgid "Published <time class=\"entry-date updated dt-updated\" datetime=\"%1$s\" itemprop=\"dateModified\">%2$s</time> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%7$s</a>"
+msgstr "Opublikowano <time class=\"entry-date updated dt-updated\" datetime=\"%1$s\" itemprop=\"dateModified\">%2$s</time> na <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> w <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%7$s</a>"
+
+#: header.php:45
+msgid "Skip to content"
+msgstr "Przeskocz do treści"
+
+#: header.php:44
+msgid "Main menu"
+msgstr "Główne menu"
+
+#: functions.php:427
+msgid "View all posts by %s"
+msgstr "Zobacz wszystkie wpisy, których autorem jest %s"
+
+#: functions.php:420
+msgid "<span class=\"sep\">Posted on </span><a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\" class=\"url u-url\"><time class=\"entry-date updated published dt-updated dt-published\" datetime=\"%3$s\" itemprop=\"dateModified datePublished\">%4$s</time></a><address class=\"byline\"> <span class=\"sep\"> by </span> <span class=\"author p-author vcard hcard h-card\" itemprop=\"author \" itemscope itemtype=\"http://schema.org/Person\">%5$s <a class=\"url uid u-url u-uid fn p-name\" href=\"%6$s\" title=\"%7$s\" rel=\"author\" itemprop=\"url\"><span itemprop=\"name\">%8$s</span></a></span></address>"
+msgstr "<span class=\"sep\">Zamieszczono </span><a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\" class=\"url u-url\"><time class=\"entry-date updated published dt-updated dt-published\" datetime=\"%3$s\" itemprop=\"dateModified datePublished\">%4$s</time></a><address class=\"byline\"> <span class=\"sep\"> przez </span> <span class=\"author p-author vcard hcard h-card\" itemprop=\"author \" itemscope itemtype=\"http://schema.org/Person\">%5$s <a class=\"url uid u-url u-uid fn p-name\" href=\"%6$s\" title=\"%7$s\" rel=\"author\" itemprop=\"url\"><span itemprop=\"name\">%8$s</span></a></span></address>"
+
+#: functions.php:370 functions.php:396
+msgid "(Edit)"
+msgstr "(Edytuj)"
+
+#. translators: 1: date, 2: time
+#: functions.php:368 functions.php:394
+msgid "%1$s at %2$s"
+msgstr "%1$s o %2$s"
+
+#: functions.php:386
+msgid "Your comment is awaiting moderation."
+msgstr "Twój komentarz oczekuje na moderację."
+
+#: functions.php:383
+msgid "%s <span class=\"says\">says:</span>"
+msgstr "%s <span class=\"says\">pisze:</span>"
+
+#: functions.php:325
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Nowsze wpisy <span class=\"meta-nav\">&rarr;</span>"
+
+#: functions.php:321
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Starsze wpisy"
+
+#: functions.php:316
+msgctxt "Next post link"
+msgid "&rarr;"
+msgstr "&rarr;"
+
+#: functions.php:315
+msgctxt "Previous post link"
+msgid "&larr;"
+msgstr "&larr;"
+
+#: functions.php:311
+msgid "Post navigation"
+msgstr "Zobacz wpisy"
+
+#: functions.php:261
+msgid "An optional second sidebar area"
+msgstr "Opcjonalny drugi obszar panelu bocznego"
+
+#: functions.php:259
+msgid "Sidebar 2"
+msgstr "Panel boczny 2"
+
+#: functions.php:250
+msgid "Sidebar 1"
+msgstr "Panel boczny 1"
+
+#: functions.php:201
+msgid "Multi Column (Sidebar at the right)"
+msgstr "Wiele kolumn (Panel boczny po prawej)"
+
+#: functions.php:200
+msgid "Single Column (Sidebar at the bottom)"
+msgstr "Jedna kolumna (Panel boczny na dole)"
+
+#: functions.php:195
+msgid "Page Structure"
+msgstr "Struktura strony"
+
+#: functions.php:183
+msgid "Border Color"
+msgstr "Kolor obramowania"
+
+#: functions.php:171
+msgid "Shadow Color"
+msgstr "Kolor cienia"
+
+#: functions.php:159
+msgid "Text Color"
+msgstr "Kolor tekstu"
+
+#: functions.php:147
+msgid "SemPress Settings"
+msgstr "Ustawienia SemPress"
+
+#: functions.php:72
+msgid "Primary Menu"
+msgstr "Menu główne"
+
+#: footer.php:31
+msgid "This site is powered by %1$s and styled with %2$s"
+msgstr "Ta witryna jest wspierana przez %1$s i stylizowana na %2$s"
+
+#: entry-footer.php:34
+msgid "% Comments"
+msgstr "% komentarzy"
+
+#: entry-footer.php:34
+msgid "1 Comment"
+msgstr "1 komentarz"
+
+#: entry-footer.php:34
+msgid "Leave a comment"
+msgstr "Dodaj komentarz"
+
+#: entry-footer.php:26
+msgid "Tagged %1$s"
+msgstr "Tagged %1$s"
+
+#: entry-footer.php:15
+msgid "in %1$s"
+msgstr "w %1$s"
+
+#. translators: used between list items, there is a space after the comma
+#: entry-footer.php:11 entry-footer.php:21
+msgid ", "
+msgstr ", "
+
+#: entry-footer.php:6
+msgid "Posted"
+msgstr "Dodano"
+
+#: entry-footer.php:37 image.php:33 image.php:101 content-page.php:23
+msgid "Edit"
+msgstr "Edytuj"
+
+#: entry-header.php:3
+msgid "Permalink to %s"
+msgstr "Bezpośredni odnośnik do &#8222;%s&#8221;"
+
+#: content-link.php:23 content-chat.php:14 content-gallery.php:22
+#: content-single.php:18 content-image.php:22 content-audio.php:23
+#: content-video.php:19 content-quote.php:23 content-status.php:23 image.php:87
+#: content-aside.php:23 content-page.php:22
+msgid "Pages:"
+msgstr "Strony:"
+
+#: content-link.php:22 content-chat.php:13 content-gallery.php:21
+#: content-single.php:17 content-image.php:21 content-audio.php:22
+#: content-video.php:18 content-quote.php:22 content-status.php:22
+#: content-aside.php:22
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Czytaj dalej <span class=\"meta-nav\">&rarr;</span>"
+
+#: comments.php:70
+msgid "Comments are closed."
+msgstr "Możliwość komentowania jest wyłączona."
+
+#: comments.php:40 comments.php:60
+msgid "Newer Comments &rarr;"
+msgstr "Nowsze komentarze &rarr;"
+
+#: comments.php:39 comments.php:59
+msgid "&larr; Older Comments"
+msgstr "&larr; Starsze komentarze"
+
+#: comments.php:38 comments.php:58
+msgid "Comment navigation"
+msgstr "Nawigacja po komentarzach"
+
+#: comments.php:32
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Jedna myśl nt. &bdquo;%2$s&rdquo;"
+msgstr[1] "%1$s myśli nt. &bdquo;%2$s&rdquo;"
+msgstr[2] "%1$s myśli nt. &bdquo;%2$s&rdquo;"
+
+#: comments.php:16
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr "Ten wpis jest chroniony hasłem. Wprowadź hasło, aby zobaczyć komentarze do niego."
+
+#: author.php:27
+msgid "Author Archives: %s"
+msgstr "Archiwum autora: %s"
+
+#: category.php:52 taxonomy-post_format.php:51 author.php:67 index.php:47
+#: archive.php:53 tag.php:54
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Nie udało się znaleźć tego, czego szukasz. Być może wyszukiwanie przyniesie lepsze rezultaty."
+
+#: category.php:48 taxonomy-post_format.php:47 author.php:63 index.php:43
+#: archive.php:49 search.php:35 tag.php:50
+msgid "Nothing Found"
+msgstr "Niczego nie znaleziono"
+
+#: sidebar.php:19
+msgid "Archives"
+msgstr "Archiwa"
+
+#. translators: %1$s: smilie
+#: 404.php:35
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Spróbuj przeszukać miesięczne archiwa. %1$s"
+
+#: 404.php:27
+msgid "Most Used Categories"
+msgstr "Najczęściej używane kategorie"
+
+#: 404.php:20
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching, or one of the links below, can help."
+msgstr "Nie udało się znaleźć tego, czego szukasz. Być może wyszukiwanie lub jeden z poniższych odnośników przyniesie lepsze rezultaty."
+
+#: 404.php:16
+msgid "Well this is somewhat embarrassing, isn&rsquo;t it?"
+msgstr "Cóż, to jest trochę zawstydzające, nieprawdaż?"
+
+#. Author of the theme
+msgid "Matthias Pfefferle"
+msgstr "Matthias Pfefferle"
+
+#. Theme URI of the theme
+msgid "https://github.com/pfefferle/SemPress"
+msgstr "https://github.com/pfefferle/SemPress"
